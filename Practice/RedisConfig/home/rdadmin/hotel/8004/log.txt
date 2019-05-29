@@ -1,0 +1,6 @@
+27334:X 24 May 2019 12:09:48.261 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+27334:X 24 May 2019 12:09:48.261 # Redis version=5.0.5, bits=64, commit=00000000, modified=0, pid=27334, just started
+27334:X 24 May 2019 12:09:48.261 # Configuration loaded
+27335:X 24 May 2019 12:09:48.263 * Running mode=sentinel, port=8004.
+27335:X 24 May 2019 12:09:48.263 # Sentinel ID is 3deffbb8daf60a02c27defc745cc0f9898f970c8
+27335:X 24 May 2019 12:09:48.263 # +monitor master mymaster 127.0.0.1 8003 quorum 1

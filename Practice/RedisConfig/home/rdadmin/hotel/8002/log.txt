@@ -1,0 +1,56 @@
+27322:C 24 May 2019 12:09:25.821 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+27322:C 24 May 2019 12:09:25.821 # Redis version=5.0.5, bits=64, commit=00000000, modified=0, pid=27322, just started
+27322:C 24 May 2019 12:09:25.821 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.5 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 8002
+ |    `-._   `._    /     _.-'    |     PID: 27323
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+27323:S 24 May 2019 12:09:25.823 # Server initialized
+27323:S 24 May 2019 12:09:25.823 * DB loaded from disk: 0.000 seconds
+27323:S 24 May 2019 12:09:25.823 * Before turning into a replica, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+27323:S 24 May 2019 12:09:25.823 * Ready to accept connections
+27323:S 24 May 2019 12:09:25.825 * Connecting to MASTER 127.0.0.1:8003
+27323:S 24 May 2019 12:09:25.825 * MASTER <-> REPLICA sync started
+27323:S 24 May 2019 12:09:25.825 * Non blocking connect for SYNC fired the event.
+27323:S 24 May 2019 12:09:25.825 * Master replied to PING, replication can continue...
+27323:S 24 May 2019 12:09:25.825 * Trying a partial resynchronization (request e02f9a7d8b4dded5d0373aa4de1a85169d828ab6:5390559).
+27323:S 24 May 2019 12:09:25.826 * Full resync from master: cad1356bb13c55ea212bbb2244c93e66986aba94:0
+27323:S 24 May 2019 12:09:25.826 * Discarding previously cached master state.
+27323:S 24 May 2019 12:09:25.924 * MASTER <-> REPLICA sync: receiving 353 bytes from master
+27323:S 24 May 2019 12:09:25.924 * MASTER <-> REPLICA sync: Flushing old data
+27323:S 24 May 2019 12:09:25.924 * MASTER <-> REPLICA sync: Loading DB in memory
+27323:S 24 May 2019 12:09:25.924 * MASTER <-> REPLICA sync: Finished with success
+27323:S 24 May 2019 12:14:26.090 * 10 changes in 300 seconds. Saving...
+27323:S 24 May 2019 12:14:26.091 * Background saving started by pid 27351
+27351:C 24 May 2019 12:14:26.095 * DB saved on disk
+27351:C 24 May 2019 12:14:26.096 * RDB: 0 MB of memory used by copy-on-write
+27323:S 24 May 2019 12:14:26.191 * Background saving terminated with success
+27323:S 24 May 2019 12:29:27.080 * 1 changes in 900 seconds. Saving...
+27323:S 24 May 2019 12:29:27.082 * Background saving started by pid 27380
+27380:C 24 May 2019 12:29:27.083 * DB saved on disk
+27380:C 24 May 2019 12:29:27.083 * RDB: 0 MB of memory used by copy-on-write
+27323:S 24 May 2019 12:29:27.182 * Background saving terminated with success
+27323:S 24 May 2019 13:52:40.412 * 1 changes in 900 seconds. Saving...
+27323:S 24 May 2019 13:52:40.413 * Background saving started by pid 27459
+27459:C 24 May 2019 13:52:40.414 * DB saved on disk
+27459:C 24 May 2019 13:52:40.414 * RDB: 0 MB of memory used by copy-on-write
+27323:S 24 May 2019 13:52:40.513 * Background saving terminated with success
+27323:S 24 May 2019 14:07:41.079 * 1 changes in 900 seconds. Saving...
+27323:S 24 May 2019 14:07:41.085 * Background saving started by pid 27509
+27509:C 24 May 2019 14:07:41.110 * DB saved on disk
+27509:C 24 May 2019 14:07:41.111 * RDB: 0 MB of memory used by copy-on-write
+27323:S 24 May 2019 14:07:41.186 * Background saving terminated with success

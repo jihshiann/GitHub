@@ -1,0 +1,56 @@
+27298:C 24 May 2019 12:05:30.402 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+27298:C 24 May 2019 12:05:30.402 # Redis version=5.0.5, bits=64, commit=00000000, modified=0, pid=27298, just started
+27298:C 24 May 2019 12:05:30.402 # Configuration loaded
+27299:S 24 May 2019 12:05:30.403 # Could not create server TCP listening socket 0.0.0.0:8001: bind: Address already in use
+27328:C 24 May 2019 12:09:29.901 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+27328:C 24 May 2019 12:09:29.901 # Redis version=5.0.5, bits=64, commit=00000000, modified=0, pid=27328, just started
+27328:C 24 May 2019 12:09:29.901 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.5 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 8001
+ |    `-._   `._    /     _.-'    |     PID: 27329
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+27329:S 24 May 2019 12:09:29.903 # Server initialized
+27329:S 24 May 2019 12:09:29.903 * DB loaded from disk: 0.000 seconds
+27329:S 24 May 2019 12:09:29.903 * Before turning into a replica, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+27329:S 24 May 2019 12:09:29.903 * Ready to accept connections
+27329:S 24 May 2019 12:09:29.903 * Connecting to MASTER 127.0.0.1:8003
+27329:S 24 May 2019 12:09:29.903 * MASTER <-> REPLICA sync started
+27329:S 24 May 2019 12:09:29.903 * Non blocking connect for SYNC fired the event.
+27329:S 24 May 2019 12:09:29.903 * Master replied to PING, replication can continue...
+27329:S 24 May 2019 12:09:29.904 * Trying a partial resynchronization (request cad1356bb13c55ea212bbb2244c93e66986aba94:1).
+27329:S 24 May 2019 12:09:29.904 * Successful partial resynchronization with master.
+27329:S 24 May 2019 12:09:29.904 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+27329:S 24 May 2019 12:14:30.085 * 10 changes in 300 seconds. Saving...
+27329:S 24 May 2019 12:14:30.086 * Background saving started by pid 27352
+27352:C 24 May 2019 12:14:30.090 * DB saved on disk
+27352:C 24 May 2019 12:14:30.090 * RDB: 0 MB of memory used by copy-on-write
+27329:S 24 May 2019 12:14:30.186 * Background saving terminated with success
+27329:S 24 May 2019 12:29:31.091 * 1 changes in 900 seconds. Saving...
+27329:S 24 May 2019 12:29:31.091 * Background saving started by pid 27382
+27382:C 24 May 2019 12:29:31.092 * DB saved on disk
+27382:C 24 May 2019 12:29:31.093 * RDB: 0 MB of memory used by copy-on-write
+27329:S 24 May 2019 12:29:31.192 * Background saving terminated with success
+27329:S 24 May 2019 13:52:40.497 * 1 changes in 900 seconds. Saving...
+27329:S 24 May 2019 13:52:40.498 * Background saving started by pid 27461
+27461:C 24 May 2019 13:52:40.499 * DB saved on disk
+27461:C 24 May 2019 13:52:40.500 * RDB: 0 MB of memory used by copy-on-write
+27329:S 24 May 2019 13:52:40.598 * Background saving terminated with success
+27329:S 24 May 2019 14:07:41.073 * 1 changes in 900 seconds. Saving...
+27329:S 24 May 2019 14:07:41.077 * Background saving started by pid 27507
+27507:C 24 May 2019 14:07:41.109 * DB saved on disk
+27507:C 24 May 2019 14:07:41.110 * RDB: 0 MB of memory used by copy-on-write
+27329:S 24 May 2019 14:07:41.177 * Background saving terminated with success

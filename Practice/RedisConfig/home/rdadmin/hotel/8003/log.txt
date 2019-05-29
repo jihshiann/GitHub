@@ -1,0 +1,54 @@
+27317:C 24 May 2019 12:09:13.400 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+27317:C 24 May 2019 12:09:13.400 # Redis version=5.0.5, bits=64, commit=00000000, modified=0, pid=27317, just started
+27317:C 24 May 2019 12:09:13.400 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.5 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 8003
+ |    `-._   `._    /     _.-'    |     PID: 27318
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+27318:M 24 May 2019 12:09:13.403 # Server initialized
+27318:M 24 May 2019 12:09:13.403 * DB loaded from disk: 0.000 seconds
+27318:M 24 May 2019 12:09:13.403 * Ready to accept connections
+27318:M 24 May 2019 12:09:25.825 * Replica 127.0.0.1:8002 asks for synchronization
+27318:M 24 May 2019 12:09:25.825 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'e02f9a7d8b4dded5d0373aa4de1a85169d828ab6', my replication IDs are 'c589a8b8f2dc3e2e25987b2081c97ced4962f27c' and '0000000000000000000000000000000000000000')
+27318:M 24 May 2019 12:09:25.825 * Starting BGSAVE for SYNC with target: disk
+27318:M 24 May 2019 12:09:25.825 * Background saving started by pid 27327
+27327:C 24 May 2019 12:09:25.826 * DB saved on disk
+27327:C 24 May 2019 12:09:25.827 * RDB: 0 MB of memory used by copy-on-write
+27318:M 24 May 2019 12:09:25.924 * Background saving terminated with success
+27318:M 24 May 2019 12:09:25.924 * Synchronization with replica 127.0.0.1:8002 succeeded
+27318:M 24 May 2019 12:09:29.904 * Replica 127.0.0.1:8001 asks for synchronization
+27318:M 24 May 2019 12:09:29.904 * Partial resynchronization request from 127.0.0.1:8001 accepted. Sending 0 bytes of backlog starting from offset 1.
+27318:M 24 May 2019 12:14:26.086 * 10 changes in 300 seconds. Saving...
+27318:M 24 May 2019 12:14:26.087 * Background saving started by pid 27350
+27350:C 24 May 2019 12:14:26.087 * DB saved on disk
+27350:C 24 May 2019 12:14:26.088 * RDB: 0 MB of memory used by copy-on-write
+27318:M 24 May 2019 12:14:26.187 * Background saving terminated with success
+27318:M 24 May 2019 12:29:27.082 * 1 changes in 900 seconds. Saving...
+27318:M 24 May 2019 12:29:27.082 * Background saving started by pid 27381
+27381:C 24 May 2019 12:29:27.083 * DB saved on disk
+27381:C 24 May 2019 12:29:27.083 * RDB: 0 MB of memory used by copy-on-write
+27318:M 24 May 2019 12:29:27.183 * Background saving terminated with success
+27318:M 24 May 2019 13:52:40.495 * 1 changes in 900 seconds. Saving...
+27318:M 24 May 2019 13:52:40.497 * Background saving started by pid 27460
+27460:C 24 May 2019 13:52:40.499 * DB saved on disk
+27460:C 24 May 2019 13:52:40.499 * RDB: 0 MB of memory used by copy-on-write
+27318:M 24 May 2019 13:52:40.597 * Background saving terminated with success
+27318:M 24 May 2019 14:07:41.075 * 1 changes in 900 seconds. Saving...
+27318:M 24 May 2019 14:07:41.085 * Background saving started by pid 27508
+27508:C 24 May 2019 14:07:41.086 * DB saved on disk
+27508:C 24 May 2019 14:07:41.087 * RDB: 0 MB of memory used by copy-on-write
+27318:M 24 May 2019 14:07:41.186 * Background saving terminated with success
