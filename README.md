@@ -1,2 +1,2 @@
-# GitHub
+# Pratice
 For practice of coding
