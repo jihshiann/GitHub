@@ -47,7 +47,12 @@ namespace MvcMovie.Controllers
 
             return View(movieGenreVM);
         }
+        
         //submit 預設路徑
+        //public string Index(string searchString, bool notUsed)
+        //{
+        //    return "From [HttpPost]Index: filter on " + searchString;
+        //}
         [HttpPost]
         public async Task<IActionResult> Index(string searchString, bool notUsed)
         {
@@ -61,10 +66,6 @@ namespace MvcMovie.Controllers
 
             return View(await movies.ToListAsync());
         }
-        //public string Index(string searchString, bool notUsed)
-        //{
-        //    return "From [HttpPost]Index: filter on " + searchString;
-        //}
 
         // GET: Movies/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -74,8 +75,7 @@ namespace MvcMovie.Controllers
                 return NotFound();
             }
 
-            var movie = await _context.Movie
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var movie = await _context.Movie.FindAsync(id);//.FirstOrDefaultAsync(m => m.Id == id);
             if (movie == null)
             {
                 return NotFound();
@@ -166,8 +166,7 @@ namespace MvcMovie.Controllers
                 return NotFound();
             }
 
-            var movie = await _context.Movie
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var movie = await _context.Movie.FindAsync(id);
             if (movie == null)
             {
                 return NotFound();
@@ -177,6 +176,15 @@ namespace MvcMovie.Controllers
         }
 
         // POST: Movies/Delete/5
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> Delete(int id, bool notUsed)
+        //{
+        //    var movie = await _context.Movie.FindAsync(id);
+        //    _context.Movie.Remove(movie);
+        //    await _context.SaveChangesAsync();
+        //    return RedirectToAction(nameof(Index));
+        //}
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
