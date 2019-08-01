@@ -44,6 +44,10 @@ namespace TodoApi
 
             app.UseHttpsRedirection();
             app.UseMvc();
+
+            //設定應用程式提供靜態檔案並啟用預設檔案對應：
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
         }
     }
 }
