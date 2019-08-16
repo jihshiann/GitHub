@@ -1,2 +1,2 @@
 # Pratice
-For practice of coding
+Practice of using framework
